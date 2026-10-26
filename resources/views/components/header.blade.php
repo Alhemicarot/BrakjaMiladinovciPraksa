@@ -30,7 +30,7 @@
 
                 <!-- Dropdown Menu -->
                 <div
-                    class="absolute left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-lg z-50">
+                    class="absolute left-0 hidden group-hover:block w-48 bg-cream border border-gray-200 shadow-lg z-50">
                     <a href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-library-red">Историја</a>
                     <a href="#"
@@ -61,7 +61,7 @@
                     </svg>
                 </button>
                 <div
-                    class="absolute left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-lg z-50">
+                    class="absolute left-0 hidden group-hover:block w-48 bg-cream border border-gray-200 shadow-lg z-50">
                     <a href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-library-red">Настани</a>
                     <a href="#"
@@ -87,7 +87,7 @@
                     </svg>
                 </button>
                 <div
-                    class="absolute left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-lg z-50">
+                    class="absolute left-0 hidden group-hover:block w-48 bg-cream border border-gray-200 shadow-lg z-50">
                     <a href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-library-red">Изданија</a>
                     <a href="#"
@@ -109,7 +109,7 @@
                     </svg>
                 </button>
                 <div
-                    class="absolute left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-lg z-50">
+                    class="absolute left-0 hidden group-hover:block w-48 bg-cream border border-gray-200 shadow-lg z-50">
                     <a href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-library-red">Услуги</a>
                     <a href="#"
@@ -133,7 +133,7 @@
                     </svg>
                 </button>
                 <div
-                    class="absolute left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-lg z-50">
+                    class="absolute hidden group-hover:block w-48 bg-cream border border-gray-200 shadow-lg z-50">
                     <a href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-library-red">Браќа
                         Миладиновци</a>
@@ -156,9 +156,10 @@
                 COBISS
             </a>
 
-            <div class="flex flex-col text-[12px] font-bold leading-tight text-gray-600 cursor-pointer">
+            <div class="flex flex-col text-[12px] font-bold leading-tight text[#6B6B65] cursor-pointer">
                 <span class="hover:text-library-red transition">МКД</span>
-                <span class="hover:text-library-red transition">АЛБ</span>
+                <p class="w-full h-[1px] bg-gray-600"></p>
+            <span class="  hover:text-library-red transition">АЛБ</span>
             </div>
         </div>
     </div>

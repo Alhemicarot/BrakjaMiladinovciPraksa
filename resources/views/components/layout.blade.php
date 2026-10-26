@@ -8,10 +8,13 @@
     <title>{{ $title }}</title>
 </head>
 
-<body>
-    <x-header>
-        
-    </x-header>
-    
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <x-header />
+
+    <main class="flex-grow">
+        @yield('content')
+    </main>
+
+    <x-footer />
 </body>
 </html>
